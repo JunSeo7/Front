@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header,
+footer {
+  background-color: #585758;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+#menu {
+  display: inline-block;
+}
+
+#menu li {
+  cursor: pointer;
+}
+
+li {
+  display: inline;
+  margin: 10px;
+}
+
+#menu div {
+  display: inline-block;
+}
+
+#menu div img {
+  width: 15px;
+  height: 15px;
+  float: right;
+  margin-left: 20px;
+  cursor: pointer;
+  transform: translateX(1200px);
+}
+
+#menu #img2 img {
+  width: 20px;
+  height: 20px;
+}
+
+
+main {
+  display: flex;
+  justify-content: center;
+}
+
+main2 {
+  display: flex;
+  justify-content: center;
+}
+
+.product {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.product img {
+  width: 173px;
+  height: 173px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: #050101;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: #039127;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #60f000;
+}
+
+.adm{
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 1500px;
+}

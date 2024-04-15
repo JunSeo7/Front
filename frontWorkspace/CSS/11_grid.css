@@ -1,0 +1,42 @@
+div{
+  border: 3px solid rgb(162, 0, 255);
+  box-sizing: border-box;
+}
+
+#outer{
+  border: 5px dashed black;
+  width: 800px;
+  height: 800px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: 100px 150px 150px 80px 100px;
+  /* grid-template-rows: 1fr 1fr; 자동으로 크기 맞춰서 만들어줌 */
+  grid-template-rows: repeat(2, 1fr 2fr) ; 
+
+  /* justify-items: center;
+  align-items: center; */
+  place-items: center center;
+
+  /* column-gap: 30px;
+  row-gap: 30px; */
+  /* gap: 30px 30px; */
+
+  /* justify-content: center;
+  align-content: center; */
+  place-content: space-between space-between;
+
+  grid-auto-flow: row;
+
+}
+
+#t02{
+  /* grid-column-start: 2;
+  grid-column-end: 4; */
+
+  /* grid-column: 2/3; */
+
+  /* order: 3; */
+
+  place-self: stretch stretch;
+}
