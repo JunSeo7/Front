@@ -1,0 +1,135 @@
+body, h1, h2, h3{
+  margin: 0;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main{
+  width: 30vh;
+  height: 100vh;
+
+  display: grid;
+  grid-template-rows: 3fr 4fr 1fr 2fr 4fr ;
+  grid-template-columns: 1fr;
+}
+
+#logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div > img{
+  margin: 10%;
+}
+
+#login{
+  display: grid;
+  grid-template-rows: 2fr 1fr 1fr;
+  grid-template-columns: 1fr;
+}
+
+#login > div:nth-child(1){
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#div-id, #div-pwd {
+  border: 1px solid lightgray;
+  width: 80%;
+  height: 35%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#login input{
+  border: 0px;
+  width: 80%;
+  height: 60%;
+}
+
+#div-id{
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom: 0px;
+
+}
+
+#div-pwd{
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+#login input[type = checkbox]{
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+}
+
+#login-btn-wrap{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#login-btn-wrap > button{
+  background-color: #03c75a;
+  width: 90%;
+  height: 70%;
+  border-radius: 5px;
+
+  color: white;
+  border: 1px solid lightgrey;
+  font-size: 1.1em;
+  font-weight: 900;
+
+  cursor: pointer;
+}
+
+#login-btn-wrap > button:hover{
+  background-color: #04b453;
+}
+
+#menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#menu > span{
+  font-size: 0.7em;
+  color: rgb(151, 151, 300);
+}
+
+#ad-img-area {
+  width: 100%;
+  height: 100%;
+  background-image: url("../resources/img/aaa.png");
+  /* background-size: contain; */
+  background-repeat: no-repeat;
+  /* background-position: center center; */
+}
+
+#login{
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
